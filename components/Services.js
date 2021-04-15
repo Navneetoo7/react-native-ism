@@ -29,11 +29,12 @@ const Services = ({ navigation }) => {
 
   return (
     <ImageBackground
-      source={require("../assets/download.png")}
-      style={{ width: "100%", height: "100%" }}
+      source={require("../assets/loginback.jpg")}
+      style={{ width: "100%", height: "100%",backgroundColor: '#b4637f',
+opacity: 0.4}}
     >
       <View style={styles.container}>
-        <Header />
+      <Image style={styles.image} source={require("../assets/logo.png")} />
 
         <TouchableOpacity
           style={styles.box}
@@ -119,6 +120,13 @@ const styles = StyleSheet.create({
   text: {
     justifyContent: "center",
   },
+  image: {
+    width: "65%",
+    height: "30%",
+    marginBottom: 10,
+    resizeMode: "contain",
+    marginTop:"10%",
+    marginRight:"5%"  },
 });
 AppRegistry.registerComponent("Services", () => Services);
 export default Services;

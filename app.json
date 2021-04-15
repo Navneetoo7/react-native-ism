@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "fnavtive",
+    "slug": "fnavtive",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/imr.png",
+    "splash": {
+      "image": "./assets/imr.png",
+      "resizeMode": "contain"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/imr.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": ""
+  }
+}

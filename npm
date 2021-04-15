@@ -1,0 +1,15 @@
+Top hits for "ERR!" "ERESOLVE" "unable" "to" "resolve" "dependency" "treeC:\\Users\\chaurasiya\\fnavtive" "install" "@react-navigation/stack"
+————————————————————————————————————————————————————————————————————————————————
+npm help config                dependency:6 install:64 resolve:2 to:229 unable:1
+npm help package-json                  dependency:10 install:46 resolve:2 to:160
+npm help install                       dependency:10 install:122 resolve:2 to:70
+npm help package-lock-json              dependency:27 install:15 resolve:4 to:47
+npm help exec                             dependency:1 install:7 resolve:1 to:27
+npm help run-script                          ERR!:1 dependency:1 install:2 to:32
+npm help npx                              dependency:1 install:7 resolve:1 to:22
+npm help scripts                                   dependency:1 install:52 to:54
+npm help folders                                   dependency:5 install:42 to:40
+npm help developers                                   install:14 resolve:1 to:71
+————————————————————————————————————————————————————————————————————————————————
+(run with -l or --long to see more context)
+

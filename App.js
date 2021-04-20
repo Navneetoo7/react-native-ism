@@ -41,82 +41,98 @@ export default function App() {
 
     //Stack navigation
 
-    <NavigationContainer>
-      <Stack.Navigator initialRouteName="Search">
-        <Stack.Screen
-          name="Search"
-          component={Search}
-          options={{
-            title: "Search", //Set Header Title
-            headerStyle: {
-              backgroundColor: "#f4511e", //Set Header color
-            },
-            headerTintColor: "#fff", //Set Header text color
-            headerTitleStyle: {
-              fontWeight: "bold", //Set Header text style
-            },
-          }}
-        />
-        <Stack.Screen
-          name="Login"
-          component={Login}
-          options={{
-            title: "Login", //Set Header Title
-            headerStyle: {
-              backgroundColor: "#f4511e", //Set Header color
-            },
-            headerTintColor: "#fff", //Set Header text color
-            headerTitleStyle: {
-              fontWeight: "bold", //Set Header text style
-            },
-          }}
-        />
-        <Stack.Screen
-          name="Services"
-          component={Services}
-          options={{
-            title: "Services", //Set Header Title
-            headerStyle: {
-              backgroundColor: "#f4511e", //Set Header color
-            },
-            headerTintColor: "#fff", //Set Header text color
-            headerTitleStyle: {
-              fontWeight: "bold", //Set Header text style
-            },
-          }}
-        />
-        <Stack.Screen
-          name="Form"
-          component={Form}
-          options={{
-            title: "Form", //Set Header Title
-            headerStyle: {
-              backgroundColor: "#f4511e", //Set Header color
-            },
-            headerTintColor: "#fff", //Set Header text color
-            headerTitleStyle: {
-              fontWeight: "bold", //Set Header text style
-            },
-          }}
-        />
-        <Stack.Screen
-          name="Thank"
-          component={Thank}
-          options={{
-            title: "Thank", //Set Header Title
-            headerStyle: {
-              backgroundColor: "#f4511e", //Set Header color
-            },
-            headerTintColor: "#fff", //Set Header text color
-            headerTitleStyle: {
-              fontWeight: "bold", //Set Header text style
-            },
-          }}
-        />
-      </Stack.Navigator>
-    </NavigationContainer>
- 
+    // <NavigationContainer>
+    //   <Stack.Navigator initialRouteName="Search">
+    //     <Stack.Screen
+    //       name="Search"
+    //       component={Search}
+    //       options={{
+    //         title: "Search", //Set Header Title
+    //         headerStyle: {
+    //           backgroundColor: "#8e0d50", //Set Header color
+    //         },
+    //         headerTintColor: "#fff", //Set Header text color
+    //         headerTitleStyle: {
+    //           fontWeight: "bold", //Set Header text style
+    //         },
+    //       }}
+    //     />
+    //     <Stack.Screen
+    //       name="Login"
+    //       component={Login}
+    //       options={{
+    //         title: "Login", //Set Header Title
+    //         headerStyle: {
+    //           backgroundColor: "#8e0d50", //Set Header color
+    //         },
+    //         headerTintColor: "#fff", //Set Header text color
+    //         headerTitleStyle: {
+    //           fontWeight: "bold", //Set Header text style
+    //         },
+    //       }}
+    //     />
+    //     <Stack.Screen
+    //       name="Services"
+    //       component={Services}
+    //       options={{
+    //         title: "Services", //Set Header Title
+    //         headerStyle: {
+    //           backgroundColor: "#8e0d50", //Set Header color
+    //         },
+    //         headerTintColor: "#fff", //Set Header text color
+    //         headerTitleStyle: {
+    //           fontWeight: "bold", //Set Header text style
+    //         },
+    //       }}
+    //     />
+    //     <Stack.Screen
+    //       name="Form"
+    //       component={Form}
+    //       options={{
+    //         title: "Form", //Set Header Title
+    //         headerStyle: {
+    //           backgroundColor: "#8e0d50", //Set Header color
+    //         },
+    //         headerTintColor: "#fff", //Set Header text color
+    //         headerTitleStyle: {
+    //           fontWeight: "bold", //Set Header text style
+    //         },
+    //       }}
+    //     />
+    //     <Stack.Screen
+    //       name="Thank"
+    //       component={Thank}
+    //       options={{
+    //         title: "Thank", //Set Header Title
+    //         headerStyle: {
+    //           backgroundColor: "#8e0d50", //Set Header color
+    //         },
+    //         headerTintColor: "#fff", //Set Header text color
+    //         headerTitleStyle: {
+    //           fontWeight: "bold", //Set Header text style
+    //         },
+    //       }}
+    //     />
+    //     <Stack.Screen
+    //       name="Client"
+    //       component={Client}
+    //       options={{
+    //         title: "Admin", //Set Header Title
+    //         headerStyle: {
+    //           backgroundColor: "#8e0d50", //Set Header color
+    //         },
+    //         headerTintColor: "#fff", //Set Header text color
+    //         headerTitleStyle: {
+    //           fontWeight: "bold", //Set Header text style
+    //         },
+    //       }}
+    //     />
+    //   </Stack.Navigator>
+    // </NavigationContainer>
 
+    <Search/>
+
+  
     );
 }
 

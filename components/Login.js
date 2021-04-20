@@ -82,7 +82,7 @@ const Login = ({ navigation }) => {
 
         <TouchableOpacity
           style={styles.loginBtn}
-          onPress={() => history.push("/Search")}
+          onPress={() => navigation.navigate("Client")}
         >
           <Text style={styles.loginText}>LOGIN</Text>
         </TouchableOpacity>
@@ -116,6 +116,7 @@ const styles = StyleSheet.create({
     height: 45,
     marginBottom: 20,
     alignItems: "center",
+    
   },
 
   TextInput: {
@@ -123,6 +124,7 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 10,
     marginLeft: 20,
+    
   },
 
   forgot_button: {

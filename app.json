@@ -1,13 +1,14 @@
 {
   "expo": {
-    "name": "fnavtive",
-    "slug": "fnavtive",
+    "name": "liaSmith",
+    "slug": "liaSmith",
     "version": "1.0.0",
     "orientation": "portrait",
+    "proxy": "https://localhost:44382/api/Users/getuserlist",
     "icon": "./assets/imr.png",
     "splash": {
-      "image": "./assets/imr.png",
-      "resizeMode": "contain"
+      "image": "./assets/f1.png",
+      "resizeMode": "cover"
     },
     "updates": {
       "fallbackToCacheTimeout": 0

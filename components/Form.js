@@ -3,11 +3,11 @@ import {
   SafeAreaView,
   StyleSheet,
   TextInput,
-  Button,
   Text,
   ImageBackground,
   View,
   BackHandler,
+  TouchableOpacity,
 } from "react-native";
 import Header from "./Header";
 import { useFocusEffect } from "@react-navigation/native";
@@ -52,11 +52,12 @@ const goto = () => {
 }
   return (
     <SafeAreaView>
-      <Header />
+      
       <ImageBackground
-        source={require("../assets/logoback.png")}
+        source={require("../assets/mainpic.jpg")}
         style={{ width: "100%", height: "100%" }}
       >
+      <View style={{marginTop: "15%"}}>
         <TextInput
           style={styles.input}
           onChangeText={onChangeName}
@@ -80,7 +81,7 @@ const goto = () => {
           style={styles.input}
           onChangeText={onChangeNumber}
           value={number}
-          placeholder=" Bad Number"
+          placeholder=" Bed Number"
           keyboardType="numeric"
         />
         <TextInput
@@ -89,10 +90,16 @@ const goto = () => {
           value={email}
           placeholder=" email"
         />
-        <View style={styles.btm}>
-          <Button title="Submit" onPress={() => goForFetch, goto} />
+       <View style={{justifyContent:"center",alignItems: "center"}}>
+        <TouchableOpacity
+          style={styles.loginBtn}
+          onPress={() => goForFetch, goto}
+        >
+          <Text style={styles.loginText}>Submit</Text>
+        </TouchableOpacity>
         </View>
-        <View style={styles.RectangleShapeView}></View>
+        </View>
+        
       </ImageBackground>
     </SafeAreaView>
   );
@@ -112,14 +119,21 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderRadius: 10,
     backgroundColor: "white",
+    borderColor: "#8e0d50",
   },
-  RectangleShapeView: {
-    marginTop: "60%",
-    width: "100%",
-    height: "5%",
-    marginLeft: 0,
-    backgroundColor: "#B9B7DE",
+  loginBtn: {
+    width: "80%",
+    borderRadius: 25,
+    height: 50,
+    alignItems: "center",
+    justifyContent: "center",
+    marginTop: 30,
+    backgroundColor: "#8e0d50",
   },
+  loginText:{
+    color:"white",
+  }
+  
 });
 
 export default Form;

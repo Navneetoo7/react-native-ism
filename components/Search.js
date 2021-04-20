@@ -376,7 +376,7 @@ const styles = StyleSheet.create({
     width:"100%",
   },
   container1: {
-    marginTop:0,
+    marginTop:-40,
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
@@ -459,14 +459,15 @@ const styles = StyleSheet.create({
   },
   textInputStyle: {
     width: '70%',
-    padding: 10,
+    paddingLeft:10,
     borderWidth: 1,
-    height:50,
+    height:45,
     borderRadius:10,
     backgroundColor:"white",
     borderColor:"#8e0d50",
     marginTop : "5%",
     position: 'relative',
+    
 },
 
 });
